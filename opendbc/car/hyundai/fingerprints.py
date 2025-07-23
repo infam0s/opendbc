@@ -1195,6 +1195,26 @@ FW_VERSIONS = {
       b'\xf1\x00JX1_ SCC -----      1.00 1.02 99110-T6100         ',
     ],
   },
+  CAR.GENESIS_GV80_2024: {
+    (Ecu.cornerRadar, 0x7B7, None): [
+        b'\xf1\x00JX1 BCW RR 1.00 , 1.00 (t\x94\x99#\x02i\x05\x12',
+        b'\xf1\x8b #\t& #\t& #\x12\x12 #\x12\x13',
+    ],
+    (Ecu.fwdRadar, 0x7D0, None): [
+        b'\xf1\x00JX1 SCC FHCUP      1.00 1.01 99110-T6100         ',
+        b'\xf1\x00JX1_ SCC -----      1.00 1.02 99110-T6100         ',
+        b'\xf1\x8b #\x10(',
+        b'\xf1\x10\x00/\x00\x00',
+    ],
+    (Ecu.hvac, 0x7B3, None): [
+        b"\xf1\x00JX1   97255-T6190CONTROL ASS'Y-DATC  1.07JX1 DATC(-)2.2       ",
+    ],
+    (Ecu.fwdCamera, 0x7C4, None): [
+        b'\xf1\x00JX1 MFC  AT USA LHD 1.00 1.02 99211-T6110 220513',
+        b'\xf1\x00JX1 MFC  AT USA LHD 1.00 1.01 99211-T6210 221223',
+        b"\xf1\x8b #\x12'",
+    ],
+},
   CAR.KIA_CARNIVAL_4TH_GEN: {
     (Ecu.fwdCamera, 0x7c4, None): [
       b'\xf1\x00KA4 MFC  AT EUR LHD 1.00 1.06 99210-R0000 220221',
